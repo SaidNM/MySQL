@@ -49,3 +49,6 @@ desc empleados;
 desc empleados_habilidades;
 desc habilidades;
 desc hijo_empleado;
+desc hijo_empleado;
+use empresa2;
+desc hijo_empleado;
