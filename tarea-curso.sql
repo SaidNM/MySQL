@@ -33,8 +33,9 @@ primary key(id_edicion,rfc_empleado)
 );
 
 create table requisito(
-id_requisito varchar (10) not null,
 codigo_curso varchar (10),
+id_requisito varchar (10) not null,
 foreign key (codigo_curso) references curso(codigo),
+foreign key (id_requisito) references curso(codigo),
 primary key(codigo_curso,id_requisito)
 );
